@@ -48,7 +48,7 @@ https://scripty.abhisheksatre.com/#/share/script_1629789106831
 #### User settings
 
 `scripty_symbol_hideDollarSymbolWhenUpaid` true/false: Choose to hide or show the dollar symbol for unpaid rooms
-`scripty_symbol_newColorToApplyWhenUnpaid` color: Apply a different color to the dollar symbol of unpaid rooms. Value can be a text color, an HTML color code, a RGB or RGBA combo
+`scripty_symbol_newColorToApplyWhenUnpaid` color: Apply a different color to the dollar symbol of unpaid rooms. Value can be a text color, an HTML color code, a RGB or RGBA object
 
 ### Highlight my days
 
@@ -62,8 +62,8 @@ https://scripty.abhisheksatre.com/#/share/script_1630214388951
 
 #### User settings
 
-`scripty_highlight_highlightColor` color: The color for the highlight. Value can be a text color, an HTML color code, a RGB or RGBA combo
-`scripty_highlight_highlights` object: Define the days you want to highlight here, for every month. Rename the month name for your language. Exemple for english:
+`scripty_highlight_highlightColor` color: The color for the highlight. Value can be a text color, an HTML color code, a RGB or RGBA object
+`scripty_highlight_highlights` object: Define the days you want to highlight here, for every month. Rename the month name for your language. Example for english:
 
 ```js
 const scripty_highlight_highlights = {
@@ -84,13 +84,13 @@ const scripty_highlight_highlights = {
 
 This would mark everyday of the week in january, mark wednesday and thursday in february, thursday in march, nothing from april to july, wednesday and thursday from august to december.
 
-**Do not use capital letters of any accent**
+**Do not use capital letters or any accent**
 
 ### Pimp my colors
 
 #### Description
 
-For the calendar in both view modes. Change the room tile background colors in regards to their booking source.
+For the calendar in both view modes. Change the room tile background colors according to their source.
 
 #### Install
 
@@ -98,10 +98,10 @@ https://scripty.abhisheksatre.com/#/share/script_1630143678032
 
 #### User settings
 
-`scriptyModColors_amenitiz` color: Value can be a text color, an HTML color code, a RGB or RGBA combo
-`scriptyModColors_booking` color: Value can be a text color, an HTML color code, a RGB or RGBA combo
-`scriptyModColors_expedia` color: Value can be a text color, an HTML color code, a RGB or RGBA combo
-`scriptyModColors_phone` color: Value can be a text color, an HTML color code, a RGB or RGBA combo
+`scriptyModColors_amenitiz` color: Value can be a text color, an HTML color code, a RGB or RGBA object
+`scriptyModColors_booking` color: Value can be a text color, an HTML color code, a RGB or RGBA object
+`scriptyModColors_expedia` color: Value can be a text color, an HTML color code, a RGB or RGBA object
+`scriptyModColors_phone` color: Value can be a text color, an HTML color code, a RGB or RGBA object
 
 ### Visually group bookings
 
