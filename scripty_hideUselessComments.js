@@ -17,10 +17,27 @@ const scripty_hideUselessComments_filter = [
 ]
 
 // DANGER ZONE BELOW, CHANGE AT YOUR OWN RISK
-document.querySelectorAll('.reservations__row--hotel-comment > p').forEach(element => {
-	for (const sensored of scripty_hideUselessComments_filter) {
-		if (element.innerHTML.toLowerCase().trim() === sensored.toLowerCase().trim()) {
-			element.remove()
+const scripty_hideUselessComments_clean = function() {
+	document.querySelectorAll('.reservations__row--hotel-comment > p').forEach(element => {
+		for (const censored of scripty_hideUselessComments_filter) {
+			if (element.innerHTML.toLowerCase().trim() === censored.toLowerCase().trim()) {
+				element.remove()
+			}
 		}
-	}
+	})
+}
+
+const scripty_hideUselessComments_observer = new MutationObserver(mutations => {
+	mutations.forEach(mutation => {
+		if (mutation.addedNodes.length) {
+			scripty_hideUselessComments_clean()
+		}
+	})
 })
+
+const scripty_hideUselessComments_container = document.querySelector('tbody')
+if (scripty_hideUselessComments_container) {
+	scripty_hideUselessComments_observer.observe(scripty_hideUselessComments_container, {childList: true, subtree: false})
+}
+
+scripty_hideUselessComments_clean()
