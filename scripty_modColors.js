@@ -7,6 +7,8 @@
 * scriptyModColors_expedia: text/html code/rgb/rgba color
 * scriptyModColors_phone: text/html code/rgb/rgba color
 *
+* Run script if URL Matches (regex) Following input /^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin$/gm Trigger Automatically Before Page load
+*
 * Laurent Chervet
 *
 */

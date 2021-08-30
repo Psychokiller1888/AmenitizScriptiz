@@ -4,6 +4,8 @@
 *
 * scripty_HideMyMoney_containerHeight: The height of the container in hidden mode. If set to 0px, nothing will show! At 75px only the title is visible and expands when clicked
 *
+* Run script if URL Matches (regex) Following input /^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin$/gm Trigger Automatically On Page load
+*
 * Laurent Chervet
 *
 */
