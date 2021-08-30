@@ -182,6 +182,8 @@ For some reason Amenitiz fixes textarea max width to 256px, making it VERY diffi
 
 ### Install
 
+https://scripty.abhisheksatre.com/#/share/script_1630337277497
+
 *Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin/.*$/gm` Trigger `Automatically` `On Page load`*
 
 #### User settings
