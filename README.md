@@ -16,9 +16,8 @@ A collection of all my Scripty scripts for Amenitiz.io
 - Once you have installed a script, you can go in `My Scripts`.
 - If you want to configure a `User setting` detailed below, click on the name of the script you want to configure, a side panel will pop on the right.
 - In the `Javascript Code` search for `// USER SETTING` and change the values to fit your needs and tastes.
--
-- If you are not Javascript savy, **do not** touche anything coming after `// DANGER ZONE`.
-- If for any reason you want to disable a script, under `My Scripts` you have a toggle to do so.
+- If you are not Javascript savy, **do not** touch anything coming after `// DANGER ZONE`.
+- If for any reason you want to disable a script, under `My Scripts` you have a `toggle` to do so.
 - If for any reason you want to remove a script, under `My Scripts` you can click on the `trash bin` icon and confirm the deletion.
 - If you have made changes to configuration and you want to use the plugin on different computers, you can at all time click on the `share icon` which will give you a link to use on your other computers.
 
