@@ -116,3 +116,17 @@ https://scripty.abhisheksatre.com/#/share/script_1630145171040
 #### User settings
 
 Currently none
+
+### Hide my money
+
+#### Description
+
+Hide the property revenue on the dashboard
+
+#### Install
+
+https://scripty.abhisheksatre.com/#/share/script_1630317419511
+
+#### User settings
+
+`scripty_HideMyMoney_containerHeight` 75px: The height of the container in hidden mode. If set to 0px, nothing will show! At 75px only the title is visible and expands when clicked
