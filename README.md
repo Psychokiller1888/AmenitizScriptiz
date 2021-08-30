@@ -152,3 +152,24 @@ https://scripty.abhisheksatre.com/#/share/script_1630317419511
 | Variable                            | Type   | Description                                                                                                                              |
 | ------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | scripty_HideMyMoney_containerHeight | string | The height of the container in hidden mode. If set to 0px, nothing will show! At 60px only the title is visible and expands when clicked |
+
+### 
+
+### Hide useless comments
+
+#### Description
+
+On the dashboard, hides useless comments on bookings. We are 100% non smoking hotel, but the comments from Booking.com always say "Non-Smoking" per example.
+
+#### Install
+
+https://scripty.abhisheksatre.com/#/share/script_1630322345743
+
+Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin$/gm` Trigger `Automatically` `On Page load`
+
+#### User settings
+
+
+| Variable                           | Type | Description                            |
+| ------------------------------------ | ------ | ---------------------------------------- |
+| scripty_hideUselessComments_filter | list | List of words or phrases to be removed |
