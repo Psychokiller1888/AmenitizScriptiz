@@ -5,7 +5,7 @@
 * scripty_symbol_hideDollarSymbolWhenUpaid: set to true to hide the dollar symbol for unpaid rooms
 * scripty_symbol_newColorToApplyWhenUnpaid: apply another color to unpaid dollar symbol
 *
-* Run script if URL Matches (regex) Following input /^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin/booking-manager/calendar$/gm Trigger Automatically Before Page load
+* Run script if URL Matches (regex) Following input /^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/booking-manager\/calendar$/gm Trigger Automatically Before Page load
 *
 * Laurent Chervet
 *
@@ -17,7 +17,7 @@ const scripty_symbol_newColorToApplyWhenUnpaid = 'black'
 
 // DANGER ZONE BELOW, CHANGE AT YOUR OWN RISK
 const scripty_symbol_observer = new MutationObserver(mutation => {
-	mutation.forEach(record => {
+	mutation.forEach(() => {
 		let scripty_symbol_symbolElements = document.querySelectorAll('.booking_amount_due_status')
 		scripty_symbol_symbolElements.forEach(element => {
 			element.style.bottom = '7px'

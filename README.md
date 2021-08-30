@@ -45,7 +45,7 @@ For the calendar, in weekly view mode. Hide or change the color of the dollar sy
 
 https://scripty.abhisheksatre.com/#/share/script_16297891068
 
-*Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin/booking-manager/calendar$/gm` Trigger `Automatically` `Before page load`*
+*Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/booking-manager\/calendar$/gm` Trigger `Automatically` `Before page load`*
 
 #### User settings
 
@@ -65,7 +65,7 @@ For the calendar in both view modes. Mark some days on your calendar, for a bett
 
 https://scripty.abhisheksatre.com/#/share/script_1630214388951
 
-*Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin/booking-manager/calendar$/gm` Trigger `Automatically` `Before page load`*
+*Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/booking-manager\/calendar$/gm` Trigger `Automatically` `Before page load`*
 
 #### User settings
 
@@ -106,7 +106,7 @@ For the calendar in both view modes. Change the room tile background colors acco
 
 https://scripty.abhisheksatre.com/#/share/script_1630143678032
 
-*Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin/booking-manager/calendar$/gm` Trigger `Automatically` `Before page load`*
+*Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/booking-manager\/calendar$/gm` Trigger `Automatically` `Before page load`*
 
 #### User settings
 
@@ -128,7 +128,7 @@ For the calendar in both view modes. Add a 3d effect to room tiles to make the o
 
 https://scripty.abhisheksatre.com/#/share/script_1630145171040
 
-*Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin/booking-manager/calendar$/gm` Trigger `Automatically` `Before page load`*
+*Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/booking-manager\/calendar$/gm` Trigger `Automatically` `Before page load`*
 
 #### User settings
 
@@ -173,3 +173,17 @@ Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.ameniti
 | Variable                           | Type | Description                            |
 | ------------------------------------ | ------ | ---------------------------------------- |
 | scripty_hideUselessComments_filter | list | List of words or phrases to be removed |
+
+### Fix textarea
+
+### Description
+
+For some reason Amenitiz fixes textarea max width to 256px, making it VERY difficult to use them for code. Let's fix this globally!
+
+### Install
+
+*Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin/.*$/gm` Trigger `Automatically` `On Page load`*
+
+#### User settings
+
+None at this time

@@ -5,7 +5,7 @@
 * scripty_highlight_highlightColor: text, html or rgb(a) color. Use RGBA with min 0.5 transparency
 * scripty_highlight_highlights: Change month names to your language and define the days that should be highlighted for each
 *
-* Run script if URL Matches (regex) Following input /^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin/booking-manager/calendar$/gm Trigger Automatically Before Page load
+* Run script if URL Matches (regex) Following input /^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/booking-manager\/calendar$/gm Trigger Automatically Before Page load
 *
 * Laurent Chervet
 *
