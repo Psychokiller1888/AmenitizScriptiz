@@ -2,7 +2,7 @@
 * Amenitiz.io - Calendar
 * Makes the calendar tiles more lively and allows better visualisation of rooms in a same group
 *
-* Run script if URL Matches (regex) Following input /^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin$/gm Trigger Automatically Before Page load
+* Run script if URL Matches (regex) Following input /^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin/booking-manager/calendar$/gm Trigger Automatically Before Page load
 *
 * Laurent Chervet
 *

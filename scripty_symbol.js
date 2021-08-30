@@ -5,7 +5,7 @@
 * scripty_symbol_hideDollarSymbolWhenUpaid: set to true to hide the dollar symbol for unpaid rooms
 * scripty_symbol_newColorToApplyWhenUnpaid: apply another color to unpaid dollar symbol
 *
-* Run script if URL Matches (regex) Following input /^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin$/gm Trigger Automatically Before Page load
+* Run script if URL Matches (regex) Following input /^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin/booking-manager/calendar$/gm Trigger Automatically Before Page load
 *
 * Laurent Chervet
 *
