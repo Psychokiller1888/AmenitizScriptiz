@@ -1,4 +1,4 @@
-# Amenitiz.io Scripties
+# Amenitiz.io Scriptiz
 
 A collection of all my Scripty scripts for Amenitiz.io
 
