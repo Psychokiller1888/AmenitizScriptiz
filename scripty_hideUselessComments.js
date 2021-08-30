@@ -5,7 +5,7 @@
 *
 * scripty_hideUselessComments_filter: A list of comments to be filtered out
 *
-* Run script if URL Matches (regex) Following input /^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin$/gm Trigger Automatically On Page load
+* Run script if URL Matches (regex) Following input /^http[s]:\/\/.*\.amenitiz\.io\/.*\/(?:admin|admin\/reservations)$/gm Trigger Automatically On Page load
 *
 * Laurent Chervet
 *

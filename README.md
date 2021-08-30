@@ -165,7 +165,7 @@ On the dashboard, hides useless comments on bookings. We are 100% non smoking ho
 
 https://scripty.abhisheksatre.com/#/share/script_1630322345743
 
-Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin$/gm` Trigger `Automatically` `On Page load`
+Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/(?:admin|admin\/reservations)$/gm` Trigger `Automatically` `On Page load`
 
 #### User settings
 
