@@ -5,7 +5,7 @@ A collection of all my Scripty scripts for Amenitiz.io
 ## How to use
 
 - Install the `Scripty` plugin: [Scripty - Javascript Injector - Chrome / Edge](https://chrome.google.com/webstore/detail/scripty-javascript-inject/milkbiaeapddfnpenedfgbfdacpbcbam).
-- Two choices, either directly using links found below or through the Scripty store:
+- Three choices, directly using links found below, through the Scripty store or manually:
   - Direct link:
     - Click on the links shared with the script description lower on this page.
   - Through the Scripty store:
@@ -13,6 +13,15 @@ A collection of all my Scripty scripts for Amenitiz.io
     - Head on `Script Store`.
     - Search for `Amenitiz`.
     - Click on `Install` for the plugins you want to use.
+  - Manually
+    - Open the plugin by clicking the freshly added icon and click on `view all`.
+    - Go into `My Scripts`.
+    - Click on the `+ Add New Script` on the top right of the screen.
+    - Name the plugin whatever you want.
+    - Copy and paste the `Javascript Code` using the plugin file you wish to integrate.
+    - Set the detection rules as instructed below on this page, in the `install` instructions.
+    - Click on `Create Script`.
+    - Reload your Amenitiz admin console by pressing `F5` (or `CTRL+F5`, to reload the browser's cache)
 - Once you have installed a script, you can go in `My Scripts`.
 - If you want to configure a `User setting` detailed below, click on the name of the script you want to configure, a side panel will pop on the right.
 - In the `Javascript Code` search for `// USER SETTING` and change the values to fit your needs and tastes.
@@ -31,7 +40,7 @@ Yeah... And you can reuse it, mod it, etc. etc. etc...
 
 ## Are you Amenitiz, with Amenitiz or working for Amenitiz?
 
-Nope, I'm just a happy Amenitiz customer using Amenitiz for my hotel who happens to code a lot as well. At no point Amenitiz.io can be held responsible or contacted for any support, problems, bugs or anything related to these scripts.
+Nope, I'm just a happy Amenitiz customer, using Amenitiz for my hotel, who happens to code a lot as well. At no point Amenitiz.io can be held responsible or contacted for any support, problems, bugs or anything related to these scripts.
 
 ## Plugins available
 
@@ -159,7 +168,7 @@ https://scripty.abhisheksatre.com/#/share/script_1630317419511
 
 #### Description
 
-On the dashboard, hides useless comments on bookings. We are 100% non smoking hotel, but the comments from Booking.com always say "Non-Smoking" per example.
+On the dashboard, hides useless comments on bookings. We are 100% non-smoking hotel, but the comments from Booking.com always say "Non-Smoking" per example.
 
 #### Install
 
@@ -184,7 +193,7 @@ For some reason Amenitiz fixes textarea max width to 256px, making it VERY diffi
 
 https://scripty.abhisheksatre.com/#/share/script_1630337277497
 
-*Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin/.*$/gm` Trigger `Automatically` `On Page load`*
+*Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/.*$/gm` Trigger `Automatically` `On Page load`*
 
 #### User settings
 

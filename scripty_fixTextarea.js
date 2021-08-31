@@ -2,7 +2,7 @@
 * Amenitiz.io - Global
 * Fixes textarea impossible to set width
 *
-* Run script if URL Matches (regex) Following input /^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/booking-manager\/calendar$/gm Trigger Automatically Before Page load
+* Run script if URL Matches (regex) Following input /^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/.*$/gm Trigger Automatically Before Page load
 *
 * Laurent Chervet
 *
@@ -13,7 +13,7 @@
 // DANGER ZONE BELOW, CHANGE AT YOUR OWN RISK
 const scripty_fixTextarea_doFix = function() {
 	document.querySelectorAll('textarea').forEach(element => {
-		element.style.maxWidth = '100%';
+		element.style.maxWidth = '100%'
 	})
 }
 

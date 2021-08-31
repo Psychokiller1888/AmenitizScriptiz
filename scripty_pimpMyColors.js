@@ -1,6 +1,6 @@
 /*
 * Amenitiz.io - Calendar
-* Changes or hides the dollar symbol
+* Changes the rooms background colors according to their source
 *
 * scriptyModColors_amenitiz: text/html code/rgb/rgba color
 * scriptyModColors_booking: text/html code/rgb/rgba color
