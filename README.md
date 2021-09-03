@@ -207,7 +207,7 @@ Dudes in Europe are not allowed negative charges, but we need them to deduct ser
 
 ### Install
 
-
+https://scripty.abhisheksatre.com/#/share/script_1630643532770
 
 *Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/.*$/gm` Trigger `Automatically` `Before Page load`*
 
@@ -223,7 +223,7 @@ Adds missing children info on booking tiles
 
 ### Install
 
-
+https://scripty.abhisheksatre.com/#/share/script_1630643571057
 
 *Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/booking-manager\/arrivals$/gm` Trigger `Automatically` `On Page load`*
 
