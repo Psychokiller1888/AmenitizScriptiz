@@ -198,3 +198,35 @@ https://scripty.abhisheksatre.com/#/share/script_1630337277497
 #### User settings
 
 None at this time
+
+### Negative charges
+
+### Description
+
+Dudes in Europe are not allowed negative charges, but we need them to deduct services our customers did no use...
+
+### Install
+
+
+
+*Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/.*$/gm` Trigger `Automatically` `Before Page load`*
+
+#### User settings
+
+None at this time
+
+### Add children
+
+### Description
+
+Adds missing children info on booking tiles
+
+### Install
+
+
+
+*Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/booking-manager\/arrivals$/gm` Trigger `Automatically` `On Page load`*
+
+#### User settings
+
+None at this time
