@@ -19,8 +19,12 @@ if (scripty_hideMyMoney_element) {
 	scripty_hideMyMoney_element.style.height = scripty_HideMyMoney_containerHeight
 	scripty_hideMyMoney_element.style.overflow = 'hidden'
 	scripty_hideMyMoney_element.style.cursor = 'pointer'
-	scripty_hideMyMoney_element.querySelectorAll('div').forEach(element => {
-		element.style.pointerEvents = 'none'
+	scripty_hideMyMoney_element.querySelectorAll('div, a').forEach(element => {
+		if (element.id === 'dashboard-advanced-stats') {
+			element.style.pointerEvents = 'all'
+		} else {
+			element.style.pointerEvents = 'none'
+		}
 	})
 	scripty_hideMyMoney_element.addEventListener('click', function(event) {
 		if (event.target.style.height === scripty_HideMyMoney_containerHeight) {
