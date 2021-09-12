@@ -225,7 +225,23 @@ Adds missing children info on booking tiles
 
 https://scripty.abhisheksatre.com/#/share/script_1630643571057
 
-*Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/booking-manager\/arrivals$/gm` Trigger `Automatically` `On Page load`*
+*Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/booking-manager\/.*$/gm` Trigger `Automatically` `On Page load`*
+
+#### User settings
+
+None at this time
+
+### Drag and drop restaurant menu
+
+### Description
+
+Allows reordering items on the restaurant menu page
+
+### Install
+
+https://scripty.abhisheksatre.com/#/share/script_1631356833330
+
+*Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/builder\/.*$/gm` Trigger `Automatically` `On Page load`*
 
 #### User settings
 
