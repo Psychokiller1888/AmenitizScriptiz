@@ -2,7 +2,7 @@
 * Amenitiz.io - Calendar
 * Makes the calendar tiles more lively and allows better visualisation of rooms in a same group
 *
-* Run script if URL Matches (regex) Following input /^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/booking-manager\/calendar$/gm Trigger Automatically Before Page load
+* Run script if URL Matches (regex) Following input /^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/planning\/calendar$/gm Trigger Automatically Before Page load
 *
 * Laurent Chervet
 *
@@ -23,7 +23,7 @@ function scripty_visuallyGroupBookings_removeStyle(element) {
 
 const scripty_visuallyGroupBookings_observer = new MutationObserver(mutation => {
 	mutation.forEach(() => {
-		let scripty_visuallyGroupBookings_elements = document.querySelectorAll('.booked_room_card')
+		let scripty_visuallyGroupBookings_elements = document.querySelectorAll('[data-qa="booked_cell"]')
 		scripty_visuallyGroupBookings_elements.forEach(element => {
 			element.addEventListener('mouseover', function () {
 				let scripty_visuallyGroupBookings_bookingId = element.getAttribute('data-booking')
