@@ -656,8 +656,6 @@
 	.navbar-form {
 		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
 	}
-	.navbar-right ~ .navbar-right {
-	}
 	.navbar-default {
 		background-color: var(--main_bg_color);
 		border-color: var(--main_bg_color_hover);
@@ -1222,10 +1220,6 @@
 	.modal-content {
 		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 	}
-	.tooltip {
-		line-break: auto;
-		word-spacing: normal;
-	}
 	.tooltip.top .tooltip-arrow {
 		border-top-color: var(--black);
 	}
@@ -1291,13 +1285,6 @@
 	.popover-title {
 		background-color: #f7f7f7;
 		border-bottom: 1px solid #ebebeb;
-	}
-	@media all and (transform-3d),(-webkit-transform-3d) {
-		.carousel-inner > .item {
-			-webkit-backface-visibility: hidden;
-			backface-visibility: hidden;
-			perspective: 1000px;
-		}
 	}
 	.carousel-control {
 		background-color: rgba(0, 0, 0, 0);
@@ -1440,10 +1427,6 @@
 	.cookies-eu .cookies-eu-button-holder .cookies-eu-ok {
 		background-color: #4D90FE;
 		color: #FFFFFF;
-	}
-	@font-face {
-		src: url(//dh8a4nkiowmuw.cloudfront.net/assets/summernote-34a926f7d03c278783296633865459f8cdb71d79e611d6da4420dcc07b27c887.eot);
-		src: url(//dh8a4nkiowmuw.cloudfront.net/assets/summernote-34a926f7d03c278783296633865459f8cdb71d79e611d6da4420dcc07b27c887.eot?#iefix) format("embedded-opentype"), url(//dh8a4nkiowmuw.cloudfront.net/assets/summernote-90d98f79b86fbc35e2e77a76d19a3cf6130354c63741bcfa54e395b41a4563ef.woff) format("woff"), url(//dh8a4nkiowmuw.cloudfront.net/assets/summernote-2731823a92065bd7a1f01b2cf7a5acaaebb1de3f039de847cba9152791f44c9c.ttf) format("truetype");
 	}
 	.note-editor .note-dropzone {
 		background-color: var(--white);
@@ -1939,7 +1922,6 @@
 	}
 	.fc-state-default {
 		background-color: var(--main_bg_color_hover);
-		border-color: var(--nav_bg) var(--nav_bg) #bfbfbf;
 		border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
 		color: var(--secondary_text);
@@ -2007,9 +1989,6 @@
 	.fc-basic-view .fc-day-top .fc-week-number {
 		background-color: #f2f2f2;
 		color: #808080;
-	}
-	.fc-time-grid .fc-slats .fc-minor td {
-		border-top-style: dotted;
 	}
 	.fc-time-grid-event.fc-selected .fc-resizer {
 		background: var(--white);
@@ -2499,9 +2478,6 @@
 	#content {
 		background-color: var(--white);
 	}
-	.ps-container {
-		touch-action: auto;
-	}
 	.ps-container.ps-in-scrolling.ps-x > .ps-scrollbar-x-rail {
 		background-color: #eee;
 	}
@@ -2537,14 +2513,6 @@
 	}
 	.ps-container:hover > .ps-scrollbar-y-rail:hover > .ps-scrollbar-y {
 		background-color: var(--form_color_placeholder);
-	}
-	.can-toggle input[type="checkbox"][disabled] ~ label {
-	}
-	.can-toggle input[type="checkbox"][disabled] ~ label .can-toggle__switch {
-	}
-	.can-toggle input[type="checkbox"]:checked ~ label .can-toggle__switch:before {
-	}
-	.can-toggle input[type="checkbox"]:checked ~ label .can-toggle__switch:after {
 	}
 	.can-toggle label .can-toggle__switch:after {
 		background: var(--white);
@@ -2587,8 +2555,6 @@
 	}
 	.can-toggle input[type="checkbox"]:focus ~ label .can-toggle__switch:after, .can-toggle input[type="checkbox"]:hover ~ label .can-toggle__switch:after {
 		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
-	}
-	.can-toggle input[type="checkbox"]:checked ~ label .can-toggle__switch:after {
 	}
 	.can-toggle input[type="checkbox"]:checked:focus ~ label .can-toggle__switch:after, .can-toggle input[type="checkbox"]:checked:hover ~ label .can-toggle__switch:after {
 		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
@@ -2745,9 +2711,6 @@
 	.table--row.light td {
 		color: #696969;
 	}
-	.table--row.is-selected tr:first-child td {
-		border-top-style: solid;
-	}
 	.table--row.is-selected td:first-child {
 		border-color: blue;
 	}
@@ -2790,9 +2753,6 @@
 	}
 	.table-action-bar .table-action-buttons .action-div:hover {
 		background-color: var(--u_danger);
-	}
-	.btn-action a {
-		color: unset !important;
 	}
 	.apple_pagination a {
 		color: var(--black);
@@ -3101,10 +3061,6 @@
 	.m__body .list-images3 .picture-container .svg-flag-container {
 		background-color: var(--white);
 	}
-	.m__body .marketing-slider .tooltip {
-		line-break: auto;
-		word-spacing: normal;
-	}
 	.m__body .marketing-slider .slider-horizontal {
 		background: #DCDCE6;
 	}
@@ -3217,9 +3173,6 @@
 	}
 	.m__body .ldBar path.mainline {
 		stroke: var(--white);
-		stroke-linecap: round;
-	}
-	.m__body .ldBar path.baseline {
 		stroke-linecap: round;
 	}
 	.m__body .footer-lang-dropdown {
@@ -3861,9 +3814,6 @@
 		background-color: var(--white);
 		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 	}
-	.site__booking-window-model-10 .booking-tab {
-		background: 0 0;
-	}
 	.site__booking-window-model-10 .tab-header {
 		color: var(--white);
 	}
@@ -3967,15 +3917,6 @@
 	.text_block_with_img_model_1--svg {
 		background-color: rgba(105, 114, 123, 0.1);
 	}
-	.text_block_with_img_model_2--no-image {
-		background: no-repeat center center;
-	}
-	.text_block_with_img_model_3--no-image {
-		background: no-repeat center center;
-	}
-	.text_block_with_img_model_4--no-image {
-		background: no-repeat center center;
-	}
 	.text_block_with_img_model_5--text {
 		background-color: var(--white);
 	}
@@ -4065,9 +4006,6 @@
 	}
 	.site__navbar-model-5 .site__navbar--language hr {
 		border-color: var(--u_grey);
-	}
-	.site__navbar-model-5 .sep {
-		border-bottom-style: solid;
 	}
 	.site__navbar-model-5 .site__navbar-language--dropdown-content {
 		background-color: var(--white);
@@ -4282,9 +4220,6 @@
 	.site__navbar-model-12 .navigation-block-empty-close {
 		background-color: rgba(0, 0, 0, 0.3);
 	}
-	.site__navbar-model-12 .navigation-block > .block-suptitle {
-		border-bottom: 1px solid;
-	}
 	.site__navbar-model-12 .header-menu .menu > li a:hover {
 		color: #474337;
 	}
@@ -4316,12 +4251,6 @@
 	.site__navbar-model-13 .site__navbar--tab .site__navbar--sub-tabs {
 		background-color: var(--white);
 		box-shadow: rgba(0, 0, 0, 0.12) 0 2px 16px;
-	}
-	.site__navbar-model-13 .site__navbar--tab.current {
-		border-bottom: 3px solid;
-	}
-	.site__navbar-model-13 .site__navbar--tab:hover {
-		border-bottom: 3px solid;
 	}
 	.mobile__header-model-1 #header {
 		background-color: var(--white);
@@ -4449,9 +4378,6 @@
 	.block-columns-with-images-model-3 .column {
 		box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 	}
-	.columns-with-image-model-4 .caption {
-		background: none !important;
-	}
 	.text-columns-with-images__model-5 .text-columns__text-model-5 {
 		background-color: var(--white);
 	}
@@ -4489,9 +4415,6 @@
 	.home_rooms_model_7 .room-slider {
 		background-color: var(--white);
 	}
-	.home_rooms_model_7 .outer {
-		table-layout: fixed;
-	}
 	.home_rooms_model_7 .button {
 		color: var(--white);
 	}
@@ -4517,17 +4440,11 @@
 	.site__room-show-planning-1 .fc-day-grid {
 		background-color: var(--white);
 	}
-	.site__room-show-planning-2 td.fc-today {
-		background-color: unset !important;
-	}
 	.site__room-show-planning-1 .fc-day-header {
 		background: var(--white) !important;
 	}
 	.site__room-show-planning-1 .fc-day-grid {
 		background-color: var(--white);
-	}
-	.site__room-show-planning-2 td.fc-today {
-		background-color: unset !important;
 	}
 	.text-block-with-multiple-images-model-1 .text-block-with-multiple-images--svg {
 		background-color: rgba(105, 114, 123, 0.1);
@@ -4648,9 +4565,6 @@
 	.rooms-model-2__infos {
 		background-color: var(--white);
 	}
-	.rooms-model-2__card-img {
-		background: no-repeat center center;
-	}
 	.rooms-model-3__room-card .rooms-card--title {
 		background-color: rgba(34, 37, 46, 0.3);
 	}
@@ -4662,9 +4576,6 @@
 	}
 	.rooms-model-4__card .flickity-page-dots .dot.is-selected {
 		background: var(--white);
-	}
-	.rooms-model-4__card-img {
-		background: no-repeat center center;
 	}
 	.rooms-model-5__card .flickity-page-dots .dot.is-selected {
 		background: var(--white);
@@ -4704,11 +4615,6 @@
 	}
 	.room-show-model-1 .room__name p {
 		color: var(--white);
-	}
-	.room-show-model-1 .room__amenities ul {
-		-moz-columns: 2;
-		-webkit-columns: 2;
-		columns: 2;
 	}
 	.room-model-2__results {
 		background-color: var(--white);
@@ -4795,9 +4701,6 @@
 	}
 	.date-picker-wrapper .month-name {
 		color: var(--black) !important;
-	}
-	.date-picker-wrapper .select-wrapper select {
-		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
 	}
 	.date-picker-wrapper .month-wrapper {
 		background-color: var(--white);
@@ -5029,11 +4932,6 @@
 		background-color: var(--main_bg_color);
 		color: var(--black);
 	}
-	.b__button-add-element-disabled {
-		-moz-filter: grayscale(100%);
-		-ms-filter: grayscale(100%);
-		-o-filter: grayscale(100%);
-	}
 	.b__tab--flag {
 		background-color: var(--white);
 	}
@@ -5106,11 +5004,6 @@
 		background-color: #b32c00;
 		box-shadow: 0 0 8px 0 rgba(31, 31, 77, 0.16);
 		color: var(--white);
-	}
-	.b__language-unselected img {
-		-moz-filter: grayscale(100%);
-		-ms-filter: grayscale(100%);
-		-o-filter: grayscale(100%);
 	}
 	.b__form-select-languages {
 		background: var(--main_bg_color);
@@ -5273,10 +5166,6 @@
 	.b__sidebar-layout .loading-window {
 		background-color: var(--main_bg_info_hover);
 	}
-	.b__sidebar-layout .loading-spinner {
-		-moz-animation: rotate-loading 1.5s linear 0s infinite normal;
-		-o-animation: rotate-loading 1.5s linear 0s infinite normal;
-	}
 	.b__sidebar-layout .loading-window .loading-text {
 		color: var(--u_neutral_darkest);
 	}
@@ -5367,9 +5256,6 @@
 	}
 	.note-form-label, .custom-control-description {
 		color: #373752;
-	}
-	.note-link-popover > .arrow {
-		border-color: unset;
 	}
 	.blog_form .note-btn {
 		background-color: #FAFBFC !important;
@@ -5623,8 +5509,6 @@
 	.rate_manager___color-rooms {
 		color: var(--u_neutral_dark);
 	}
-	.tgl + .tgl-btn {
-	}
 	.tgl-light + .tgl-btn {
 		background: #f0f0f0;
 	}
@@ -5692,9 +5576,6 @@
 	}
 	.inventory-table-input__date-picker--open .date-picker-input__text-from {
 		color: var(--u_primary_lighter);
-	}
-	.inventory-table__datepicker table {
-		table-layout: fixed;
 	}
 	.inventory-table__datepicker .prev svg > path, .inventory-table__datepicker .next svg > path {
 		fill: var(--u_grey_darker) !important;
@@ -6396,14 +6277,6 @@
 	.a__icon--remove:hover svg path, .a__icon--add:hover svg path {
 		fill: var(--u_neutral_dark);
 	}
-	.ul-column {
-		-moz-column-count: 2;
-		-webkit-column-count: 2;
-		column-count: 2;
-		-moz-column-gap: 20px;
-		-webkit-column-gap: 20px;
-		column-gap: 20px;
-	}
 	.hr_invoices_settings {
 		color: var(--u_primary_light);
 	}
@@ -6846,12 +6719,6 @@
 	.edit-picture-container {
 		background-color: var(--white);
 	}
-	.edit-picture-container .edit-picture-header {
-		box-shadow: 0 0 1px 0;
-	}
-	.edit-picture-container .edit-picture-main-container .right-content {
-		box-shadow: 1px 2px 1px 1px;
-	}
 	.edit-picture-container .edit-picture-main-container .right-content .modify-alt-text {
 		color: var(--u_primary_lighter);
 	}
@@ -7045,8 +6912,6 @@
 	.a__section-title-phone {
 		color: var(--u_neutral_darker);
 	}
-	.admin__new-payment-link-wrapper-phone .payment-link-info, .admin__new-payment-link-wrapper-phone .a__badge--info, .admin__new-payment-link-wrapper-phone [class^='styles-module__amenitiz-pay-terminal-payment-form__booking_info'], .admin__new-payment-link-wrapper-phone [class^='styles-module__amenitiz-pay-sepa-form__booking_info'], .admin__new-terminal-payment-wrapper-phone .payment-link-info, .admin__new-terminal-payment-wrapper-phone .a__badge--info, .admin__new-terminal-payment-wrapper-phone [class^='styles-module__amenitiz-pay-terminal-payment-form__booking_info'], .admin__new-terminal-payment-wrapper-phone [class^='styles-module__amenitiz-pay-sepa-form__booking_info'], .admin__new-credit-card-payment-phone .payment-link-info, .admin__new-credit-card-payment-phone .a__badge--info, .admin__new-credit-card-payment-phone [class^='styles-module__amenitiz-pay-terminal-payment-form__booking_info'], .admin__new-credit-card-payment-phone [class^='styles-module__amenitiz-pay-sepa-form__booking_info'], .admin__new-sepa-payment-wrapper-phone .payment-link-info, .admin__new-sepa-payment-wrapper-phone .a__badge--info, .admin__new-sepa-payment-wrapper-phone [class^='styles-module__amenitiz-pay-terminal-payment-form__booking_info'], .admin__new-sepa-payment-wrapper-phone [class^='styles-module__amenitiz-pay-sepa-form__booking_info'] {
-	}
 	.amenitiz-pay-identity-verification--failed p, .amenitiz-pay-identity-verification--active p, .amenitiz-pay-identity-verification--awaiting_data p, .amenitiz-pay-identity-verification--pending p {
 		color: var(--u_grey_darker);
 	}
@@ -7136,9 +7001,6 @@
 	}
 	.stripe-credit-card-iframe__name input:hover {
 		background-color: var(--white);
-	}
-	.stripe-credit-card-iframe__name input:focus {
-		box-shadow: 0 0 0 0;
 	}
 	.dashboard__hr--lg {
 		border-color: var(--main_bg_info_hover);
@@ -7312,9 +7174,6 @@
 	.reservations__customer-block:last-child {
 		border-bottom: 1px solid var(--u_light_grey);
 	}
-	.simple-calendar table {
-		table-layout: fixed;
-	}
 	.simple-calendar table th {
 		color: var(--u_grey);
 	}
@@ -7462,7 +7321,6 @@
 		color: var(--u_neutral_dark);
 	}
 	.modal-invoice-client-extra-info {
-		background: gray;
 		background-color: rgba(0, 0, 0, 0.5);
 	}
 	.modal-invoice-client-extra-info .modal-container-invoice-client-extra-info {
@@ -7728,10 +7586,6 @@
 	.client__comments__comment:hover, .stay_info_sidebar__comment:hover {
 		box-shadow: 0 0 4px 0 rgba(37, 37, 102, 0.16);
 	}
-	.booking_clients ul {
-		padding-inline-start: 8px;
-		-webkit-padding-start: 8px;
-	}
 	.hr-card {
 		border-top: 2px solid var(--u_light_grey);
 	}
@@ -7893,9 +7747,6 @@
 	.booking_com--reviews-smiley-logo svg .secondary {
 		fill: var(--white);
 	}
-	.link-no-color {
-		color: unset !important;
-	}
 	.arrows-slider div svg:hover path {
 		fill: var(--u_primary_lighter);
 	}
@@ -7904,11 +7755,6 @@
 	}
 	.card-market-place-horizontal:hover {
 		box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-	}
-	.grid-card-container {
-		-moz-column-gap: 24px;
-		column-gap: 24px;
-		row-gap: 24px;
 	}
 	.card-market-place {
 		background: var(--white);
@@ -8123,10 +7969,6 @@
 	}
 	.loading-window {
 		background-color: var(--main_bg_color);
-	}
-	.loading-spinner {
-		-moz-animation: rotate-loading 1.5s linear 0s infinite normal;
-		-o-animation: rotate-loading 1.5s linear 0s infinite normal;
 	}
 	.loading-window .loading-text {
 		color: var(--u_neutral_darkest);
@@ -8372,9 +8214,6 @@
 	}
 	.payment-link .subtitle {
 		color: var(--u_grey);
-		font-variant: small-caps;
-	}
-	.payment-link h2 {
 		font-variant: small-caps;
 	}
 	.payment-link .amount {
@@ -8883,9 +8722,6 @@
 	.admin__table {
 		color: var(--black);
 	}
-	.admin__table.fixed {
-		table-layout: fixed;
-	}
 	.admin__table.admin_table--header-border th {
 		border-bottom: 1px solid var(--nav_bg);
 		color: var(--form_color_placeholder);
@@ -8994,9 +8830,6 @@
 	.sticky-bottom {
 		background-color: var(--white);
 		box-shadow: 0 -5px 15px -5px rgba(84, 96, 103, 0.2);
-	}
-	.sticky-bottom.sticky-bottom--behind {
-		box-shadow: 0 0 0 0;
 	}
 	input.check-box:hover {
 		border-color: var(--u_primary_lighter);
