@@ -10,12 +10,12 @@
 
 // USER SETTINGS
 
-let ALLOWED_CURRENCIES = [
+let scripty_langAndMoney_allowed_currencies = [
 	'Euro',
 	'Swiss Franc'
 ]
 
-let ALLOWED_LANGUAGES = [
+let scripty_langAndMoney_allowed_languages = [
 	'allemand',
 	'anglais',
 	'français',
@@ -26,12 +26,12 @@ let ALLOWED_LANGUAGES = [
 document.body.addEventListener('click', function() {
 	try {
 		for (const option of document.querySelectorAll('#client_account_currency > option')) {
-			if (!ALLOWED_CURRENCIES.includes(option.text) && !option.disabled) {
+			if (!scripty_langAndMoney_allowed_currencies.includes(option.text) && !option.disabled) {
 				option.parentElement.removeChild(option)
 			}
 		}
 		for (const option of document.querySelectorAll('#client_account_language > option')) {
-			if (!ALLOWED_LANGUAGES.includes(option.text) && !option.disabled) {
+			if (!scripty_langAndMoney_allowed_languages.includes(option.text) && !option.disabled) {
 				option.parentElement.removeChild(option)
 			}
 		}

@@ -246,3 +246,20 @@ https://scripty.abhisheksatre.com/#/share/script_1631356833330
 #### User settings
 
 None at this time
+
+### Lang and money
+
+### Description
+
+Hundreds of currencies to choose from, hundreds of languages... That's just taunting the devil for errors... Disable what you never need under the customer infos to speed up the manual booking process
+
+### Install
+
+*Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/planning\/calendar/gm` Trigger `Automatically` `On Page load`*
+
+#### User settings
+
+| Variable                            | Type  | Description                |
+| ------------------------------------- |-------|----------------------------|
+| scripty_langAndMoney_allowed_currencies | array | List of allowed currencies |
+| scripty_langAndMoney_allowed_languages | array | List of allowed languages  |
