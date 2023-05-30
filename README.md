@@ -255,6 +255,8 @@ Hundreds of currencies to choose from, hundreds of languages... That's just taun
 
 ### Install
 
+https://scripty.abhisheksatre.com/#/share/script_1666502662016
+
 *Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/planning\/calendar/gm` Trigger `Automatically` `On Page load`*
 
 #### User settings
