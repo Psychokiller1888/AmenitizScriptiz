@@ -265,3 +265,21 @@ https://scripty.abhisheksatre.com/#/share/script_1666502662016
 | ------------------------------------- |-------|----------------------------|
 | scripty_langAndMoney_allowed_currencies | array | List of allowed currencies |
 | scripty_langAndMoney_allowed_languages | array | List of allowed languages  |
+
+### Payment types
+
+### Description
+
+Too many payment types when adding a transaction leads to human error. Let's solve this by getting rid of payment types you don't want displayed
+
+### Install
+
+https://scripty.abhisheksatre.com/#/share/script_1696141033741
+
+*Run script if `URL` `Matches (regex)` Following input `/^http[s]:\/\/.*\.amenitiz\.io\/.*\/admin\/planning\/calendar/gm` Trigger `Automatically` `On Page load`*
+
+#### User settings
+
+| Variable                            | Type  | Description                   |
+| ------------------------------------- |-------|-------------------------------|
+| scripty_paymentTypes_allowed_payment_types | array | List of allowed payment types |
